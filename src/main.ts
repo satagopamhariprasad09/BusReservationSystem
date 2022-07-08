@@ -10,3 +10,8 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+enableProdMode();
+
+function bootstrap(arg0:any){
+  throw new Error('Function not implemented');
+}
